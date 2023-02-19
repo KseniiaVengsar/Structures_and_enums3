@@ -6,19 +6,19 @@
 
 enum month
 {
-	Январь = 1,
-	Февраль = 2,
-	Март = 3,
-	Апрель = 4,
-	Май = 5,
-	Июнь = 6,
-	Июль = 7,
-	Август = 8,
-	Сентябрь = 9,
-	Октябрь = 10,
-	Ноябрь = 11,
-	Декабрь = 12,
-	Oшибка = 0
+	РЇРЅРІР°СЂСЊ = 1,
+	Р¤РµРІСЂР°Р»СЊ = 2,
+	РњР°СЂС‚ = 3,
+	РђРїСЂРµР»СЊ = 4,
+	РњР°Р№ = 5,
+	РСЋРЅСЊ = 6,
+	РСЋР»СЊ = 7,
+	РђРІРіСѓСЃС‚ = 8,
+	РЎРµРЅС‚СЏР±СЂСЊ = 9,
+	РћРєС‚СЏР±СЂСЊ = 10,
+	РќРѕСЏР±СЂСЊ = 11,
+	Р”РµРєР°Р±СЂСЊ = 12,
+	OС€РёР±РєР° = 0
 };
 int main()
 {
@@ -29,54 +29,54 @@ int main()
 
 	while (num != 0)
 	{
-		std::cout << "Введите номер месяца:";
+		std::cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РјРµСЃСЏС†Р°:";
 		std::cin >> num;
 
 
 
 		switch (num) {
-		case Январь:
-			std::cout << "Январь" << std::endl;
+		case РЇРЅРІР°СЂСЊ:
+			std::cout << "РЇРЅРІР°СЂСЊ" << std::endl;
 			break;
-		case Февраль:
-			std::cout << "Февраль" << std::endl;
+		case Р¤РµРІСЂР°Р»СЊ:
+			std::cout << "Р¤РµРІСЂР°Р»СЊ" << std::endl;
 			break;
-		case Март:
-			std::cout << "Март" << std::endl;
+		case РњР°СЂС‚:
+			std::cout << "РњР°СЂС‚" << std::endl;
 			break;
-		case Апрель:
-			std::cout << "Апрель" << std::endl;
+		case РђРїСЂРµР»СЊ:
+			std::cout << "РђРїСЂРµР»СЊ" << std::endl;
 			break;
-		case Май:
-			std::cout << "Май" << std::endl;
+		case РњР°Р№:
+			std::cout << "РњР°Р№" << std::endl;
 			break;
-		case Июнь:
-			std::cout << "Июнь" << std::endl;
+		case РСЋРЅСЊ:
+			std::cout << "РСЋРЅСЊ" << std::endl;
 			break;
-		case Июль:
-			std::cout << "Июль" << std::endl;
+		case РСЋР»СЊ:
+			std::cout << "РСЋР»СЊ" << std::endl;
 			break;
-		case Август:
-			std::cout << "Август" << std::endl;
+		case РђРІРіСѓСЃС‚:
+			std::cout << "РђРІРіСѓСЃС‚" << std::endl;
 			break;
-		case Сентябрь:
-			std::cout << "Сентябрь" << std::endl;
+		case РЎРµРЅС‚СЏР±СЂСЊ:
+			std::cout << "РЎРµРЅС‚СЏР±СЂСЊ" << std::endl;
 			break;
-		case Октябрь:
-			std::cout << "Октябрь" << std::endl;
+		case РћРєС‚СЏР±СЂСЊ:
+			std::cout << "РћРєС‚СЏР±СЂСЊ" << std::endl;
 			break;
-		case Ноябрь:
-			std::cout << "Ноябрь" << std::endl;
+		case РќРѕСЏР±СЂСЊ:
+			std::cout << "РќРѕСЏР±СЂСЊ" << std::endl;
 			break;
-		case Декабрь:
-			std::cout << "Декабрь" << std::endl;
+		case Р”РµРєР°Р±СЂСЊ:
+			std::cout << "Р”РµРєР°Р±СЂСЊ" << std::endl;
 			break;
-		case Oшибка:
-			std::cout << "До свидания!" << std::endl;
+		case OС€РёР±РєР°:
+			std::cout << "Р”Рѕ СЃРІРёРґР°РЅРёСЏ!" << std::endl;
 			break;
 
 		default:
-			std::cout << "Неправильный номер!" << std::endl;
+			std::cout << "РќРµРїСЂР°РІРёР»СЊРЅС‹Р№ РЅРѕРјРµСЂ!" << std::endl;
 			break;
 		}
 	}
